@@ -21,7 +21,6 @@
   border-radius: 10px;
   font-size: 16px;
   font-weight: bold;
-  padding: 12px 36px;
   cursor: pointer;
 }
 body {
@@ -54,6 +53,7 @@ nav {
 .nav-btn {
   width: 132px;
   height: 48px;
+  padding: 12px 36px;
 }
 /* Banner Section */
 .banner-section {
@@ -76,4 +76,42 @@ nav {
   margin-top: 0;
   width: 174px;
   height: 48px;
+}
+
+/* Action Section */
+.action-section {
+  max-width: 1140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 116px auto;
+  gap: 220px;
+}
+.action-container {
+  width: 517px;
+  height: 203px;
+}
+.ac-title {
+  color: var(--black);
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.ac-subtitle {
+  margin: 23px 0;
+  color: rgba(37, 36, 50, 0.5);
+  font-size: 24px;
+  font-weight: 400;
+  width: 517px;
+}
+.ac-btn {
+  margin-top: 0;
+  width: 229px;
+  font-size: 16px;
+  font-weight: bold;
+  height: 48px;
+}
+.action-image {
+  border-radius: 48px;
+  width: 403px;
 }
