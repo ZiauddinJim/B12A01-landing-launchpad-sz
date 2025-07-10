@@ -219,3 +219,40 @@ textarea::placeholder {
   font-weight: 700;
   margin-top: 19px;
 }
+
+/* Footer Section */
+footer {
+  background-color: white;
+  height: 428px;
+  margin: 0 auto;
+  text-align: center;
+}
+.fs {
+  width: 531px;
+  margin: 104px auto 0;
+  padding-top: 104px;
+}
+.f-title {
+  color: var(--primary-color);
+  font-size: 100px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+.f-description {
+  color: rgba(137, 135, 161, 1);
+  font-size: 16px;
+  margin: 0;
+  padding-top: 8px;
+  padding-bottom: 20px;
+}
+.f-link {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+}
+.f-link a {
+  text-decoration: none;
+  font-size: 16px;
+  color: rgba(137, 135, 161, 1);
+}
