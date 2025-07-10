@@ -44,6 +44,7 @@ header {
   font-weight: 900;
 }
 nav {
+  max-width: 1140px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -54,8 +55,8 @@ nav {
 .nav-btn {
   width: 132px;
   height: 48px;
-  padding: 12px 36px;
 }
+
 /* Banner Section */
 .banner-section {
   margin: 0 auto;
@@ -124,4 +125,97 @@ nav {
   height: 306px;
   border-radius: 24px;
   background-color: rgba(78, 71, 255, 0.1);
+  text-align: center;
+  margin-bottom: 137px;
+}
+.pu {
+  width: 856px;
+  height: 206px;
+  margin: 0 auto;
+  padding: 50px 142px;
+}
+.pus-title {
+  color: var(--black);
+  font-size: 38px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 40px;
+}
+.pus-c {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  gap: 158px;
+}
+.pus-c-title {
+  color: var(--primary-color);
+  font-size: 80px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+.pus-c-description {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+/* Touch Section */
+.touch-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1140px;
+  gap: 115px;
+  height: 632px;
+}
+.ts-title {
+  color: black;
+  font-size: 97px;
+  font-weight: 700;
+  width: 528px;
+}
+label {
+  display: block;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+input {
+  width: 465px;
+  height: 70px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding-left: 32px;
+}
+
+input::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+}
+textarea {
+  width: 465px;
+  height: 135px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding-left: 32px;
+  padding-top: 19px;
+}
+textarea::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+}
+.form-btn {
+  width: 497px;
+  height: 70px;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 19px;
 }
