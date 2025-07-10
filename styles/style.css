@@ -26,6 +26,7 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: #f5f8ff;
 }
 
 /* header Style */
@@ -114,4 +115,13 @@ nav {
 .action-image {
   border-radius: 48px;
   width: 403px;
+}
+
+/*  Productive Users Section */
+.productive-user-section {
+  margin: 0 auto;
+  max-width: 1140px;
+  height: 306px;
+  border-radius: 24px;
+  background-color: rgba(78, 71, 255, 0.1);
 }
