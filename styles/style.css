@@ -23,6 +23,11 @@
   font-weight: bold;
   cursor: pointer;
 }
+.btn-primary:hover {
+  background: linear-gradient(90deg, #4e47ff 0%, #ff6fd8 100%);
+  transform: scale(1.07);
+  box-shadow: 0 4px 16px rgba(52, 152, 219, 0.25);
+}
 body {
   margin: 0;
   padding: 0;
