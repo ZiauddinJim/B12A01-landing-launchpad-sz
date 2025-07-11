@@ -239,6 +239,43 @@ nav {
   margin: 0;
 }
 
+/* Ready to focus better */
+.focus-better {
+  max-width: 1140px;
+  height: 696.77px;
+  background-color: white;
+  border-radius: 14px;
+  margin: 0 auto;
+  padding: 71px 150px;
+  text-align: center;
+}
+.fb-title {
+  color: var(--black);
+  font-size: 50px;
+  font-weight: 700;
+  margin: 0;
+}
+.fb-description {
+  font-size: 16;
+  color: rgba(0, 0, 0, 0.5);
+  margin: 20px auto;
+}
+.fb-btn {
+  width: 195px;
+  height: 48px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.fb-pic {
+  width: 840px;
+  align-items: center;
+  margin: 0 auto;
+}
+.fb-pic img {
+  border-radius: 48px;
+}
+
 /* Touch Section */
 .touch-section {
   display: flex;
